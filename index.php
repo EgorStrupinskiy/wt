@@ -2,7 +2,7 @@
 // index.php
 session_start();
 
-include "main.html";
+include "index.html";
 // If user is logged in, retrieve identity from session.
 $identity = null;
 if (isset($_SESSION['identity'])) {
