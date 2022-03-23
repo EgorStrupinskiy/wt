@@ -283,3 +283,316 @@ Apache server interrupted...
 [Tue Feb 15 00:14:23.183090 2022] [mpm_winnt:notice] [pid 2800:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Tue Feb 15 00:14:25.198286 2022] [mpm_winnt:notice] [pid 10172:tid 440] AH00364: Child: All worker threads have exited.
 [Tue Feb 15 00:14:25.253847 2022] [mpm_winnt:notice] [pid 2800:tid 424] AH00430: Parent: Child process 10172 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 11:34:17.577391 2022] [mpm_winnt:notice] [pid 18328:tid 804] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 11:34:17.577391 2022] [mpm_winnt:notice] [pid 18328:tid 804] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 11:34:17.577391 2022] [core:notice] [pid 18328:tid 804] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 11:34:17.583377 2022] [mpm_winnt:notice] [pid 18328:tid 804] AH00418: Parent: Created child process 17460
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 11:34:19.601041 2022] [mpm_winnt:notice] [pid 17460:tid 772] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 11:34:22.532454 2022] [authz_core:error] [pid 17460:tid 1300] [client 127.0.0.1:62383] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 11:34:28.175531 2022] [authz_core:error] [pid 17460:tid 1300] [client 127.0.0.1:62383] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 11:34:38.593595 2022] [authz_core:error] [pid 17460:tid 1292] [client 127.0.0.1:62384] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 11:35:37.530339 2022] [cgi:error] [pid 17460:tid 1292] [client 127.0.0.1:62401] AH02811: script not found or unable to stat: C:/WT/Apache24/cgi-bin/rateajaxip.cgi, referer: http://strupinski.egor/funny.html
+[Tue Feb 15 11:36:39.721766 2022] [authz_core:error] [pid 17460:tid 1292] [client 127.0.0.1:62403] AH01630: client denied by server configuration: C:/localhost/test.html
+[Tue Feb 15 11:36:42.864339 2022] [authz_core:error] [pid 17460:tid 1292] [client 127.0.0.1:62403] AH01630: client denied by server configuration: C:/localhost/test.html
+[Tue Feb 15 11:36:49.860311 2022] [authz_core:error] [pid 17460:tid 1288] [client 127.0.0.1:62404] AH01630: client denied by server configuration: C:/localhost/test.html
+[Tue Feb 15 11:37:04.452311 2022] [mpm_winnt:notice] [pid 18328:tid 804] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 15 11:37:34.458818 2022] [mpm_winnt:notice] [pid 18328:tid 804] AH00431: Parent: Forcing termination of child process 17460
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 15:43:55.117610 2022] [mpm_winnt:notice] [pid 25540:tid 768] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 15:43:55.117610 2022] [mpm_winnt:notice] [pid 25540:tid 768] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 15:43:55.117610 2022] [core:notice] [pid 25540:tid 768] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 15:43:55.126128 2022] [mpm_winnt:notice] [pid 25540:tid 768] AH00418: Parent: Created child process 21524
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 15:43:55.559543 2022] [mpm_winnt:notice] [pid 21524:tid 884] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 15:44:38.901071 2022] [authz_core:error] [pid 21524:tid 1292] [client 127.0.0.1:54434] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 15:52:54.699117 2022] [authz_core:error] [pid 21524:tid 1296] [client 127.0.0.1:54445] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 15:54:09.066917 2022] [authz_core:error] [pid 21524:tid 1292] [client 127.0.0.1:54448] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 15:54:47.097255 2022] [authz_core:error] [pid 21524:tid 1296] [client 127.0.0.1:54450] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 15:55:25.053713 2022] [authz_core:error] [pid 21524:tid 1292] [client 127.0.0.1:54451] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:03:20.472355 2022] [mpm_winnt:notice] [pid 25540:tid 768] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 15 16:03:50.476534 2022] [mpm_winnt:notice] [pid 25540:tid 768] AH00431: Parent: Forcing termination of child process 21524
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:04:10.567321 2022] [mpm_winnt:notice] [pid 23336:tid 488] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 16:04:10.567321 2022] [mpm_winnt:notice] [pid 23336:tid 488] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 16:04:10.567321 2022] [core:notice] [pid 23336:tid 488] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 16:04:10.573274 2022] [mpm_winnt:notice] [pid 23336:tid 488] AH00418: Parent: Created child process 11012
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:04:10.895077 2022] [mpm_winnt:notice] [pid 11012:tid 908] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 16:08:19.346977 2022] [mpm_winnt:notice] [pid 23336:tid 488] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 15 16:08:34.143253 2022] [mpm_winnt:notice] [pid 11012:tid 908] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 16:08:34.195152 2022] [mpm_winnt:notice] [pid 23336:tid 488] AH00430: Parent: Child process 11012 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:08:45.677191 2022] [mpm_winnt:notice] [pid 27436:tid 848] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 16:08:45.677191 2022] [mpm_winnt:notice] [pid 27436:tid 848] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 16:08:45.677191 2022] [core:notice] [pid 27436:tid 848] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 16:08:45.695414 2022] [mpm_winnt:notice] [pid 27436:tid 848] AH00418: Parent: Created child process 28784
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:08:46.040828 2022] [mpm_winnt:notice] [pid 28784:tid 836] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 16:09:11.776897 2022] [authz_core:error] [pid 28784:tid 1308] [client 127.0.0.1:54593] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:09:17.250100 2022] [mpm_winnt:notice] [pid 27436:tid 848] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 15 16:09:47.266685 2022] [mpm_winnt:notice] [pid 27436:tid 848] AH00431: Parent: Forcing termination of child process 28784
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:09:59.406559 2022] [mpm_winnt:notice] [pid 18300:tid 780] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 16:09:59.409570 2022] [mpm_winnt:notice] [pid 18300:tid 780] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 16:09:59.409570 2022] [core:notice] [pid 18300:tid 780] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 16:09:59.415904 2022] [mpm_winnt:notice] [pid 18300:tid 780] AH00418: Parent: Created child process 25648
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:09:59.766830 2022] [mpm_winnt:notice] [pid 25648:tid 732] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 16:10:25.066832 2022] [mpm_winnt:notice] [pid 18300:tid 780] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 15 16:10:55.082335 2022] [mpm_winnt:notice] [pid 18300:tid 780] AH00431: Parent: Forcing termination of child process 25648
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:11:03.856556 2022] [mpm_winnt:notice] [pid 29612:tid 568] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 16:11:03.856556 2022] [mpm_winnt:notice] [pid 29612:tid 568] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 16:11:03.856556 2022] [core:notice] [pid 29612:tid 568] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 16:11:03.867233 2022] [mpm_winnt:notice] [pid 29612:tid 568] AH00418: Parent: Created child process 21696
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:11:04.202098 2022] [mpm_winnt:notice] [pid 21696:tid 792] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 16:11:26.980258 2022] [mpm_winnt:notice] [pid 29612:tid 568] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 16:11:56.984397 2022] [mpm_winnt:notice] [pid 29612:tid 568] AH00431: Parent: Forcing termination of child process 21696
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:12:05.409519 2022] [mpm_winnt:notice] [pid 31596:tid 868] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 16:12:05.409519 2022] [mpm_winnt:notice] [pid 31596:tid 868] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 16:12:05.409519 2022] [core:notice] [pid 31596:tid 868] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 16:12:05.422087 2022] [mpm_winnt:notice] [pid 31596:tid 868] AH00418: Parent: Created child process 23756
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using ::1. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 16:12:05.876560 2022] [mpm_winnt:notice] [pid 23756:tid 744] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 16:12:21.640143 2022] [authz_core:error] [pid 23756:tid 1308] [client 127.0.0.1:54606] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:12:25.536939 2022] [authz_core:error] [pid 23756:tid 1308] [client 127.0.0.1:54606] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:12:45.271754 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:54607] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:14:06.271987 2022] [authz_core:error] [pid 23756:tid 1308] [client 127.0.0.1:54625] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:14:45.853719 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:54626] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:15:45.294398 2022] [authz_core:error] [pid 23756:tid 1308] [client 127.0.0.1:54649] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:16:01.138267 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:54654] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:16:45.986251 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:54674] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:17:12.979960 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:54688] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:17:34.979574 2022] [authz_core:error] [pid 23756:tid 1308] [client 127.0.0.1:54704] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/ugfkuefgeukrf.html
+[Tue Feb 15 16:17:44.726263 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:54708] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:18:18.762743 2022] [authz_core:error] [pid 23756:tid 1308] [client 127.0.0.1:54711] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 16:20:21.608721 2022] [authz_core:error] [pid 23756:tid 1328] [client 127.0.0.1:50277] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 17:29:26.548761 2022] [mpm_winnt:notice] [pid 31596:tid 868] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 17:29:28.560826 2022] [mpm_winnt:notice] [pid 23756:tid 744] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 17:29:28.632545 2022] [mpm_winnt:notice] [pid 31596:tid 868] AH00430: Parent: Child process 23756 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 17:30:49.441557 2022] [mpm_winnt:notice] [pid 16676:tid 772] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 17:30:49.441557 2022] [mpm_winnt:notice] [pid 16676:tid 772] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 17:30:49.441557 2022] [core:notice] [pid 16676:tid 772] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 17:30:49.448097 2022] [mpm_winnt:notice] [pid 16676:tid 772] AH00418: Parent: Created child process 24532
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 17:30:51.582258 2022] [mpm_winnt:notice] [pid 24532:tid 468] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 17:31:06.581467 2022] [authz_core:error] [pid 24532:tid 1316] [client 127.0.0.1:54598] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 17:31:13.151461 2022] [authz_core:error] [pid 24532:tid 1316] [client 127.0.0.1:54598] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/error.html
+[Tue Feb 15 17:39:57.823630 2022] [mpm_winnt:notice] [pid 16676:tid 772] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 17:39:59.837954 2022] [mpm_winnt:notice] [pid 24532:tid 468] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 17:39:59.878814 2022] [mpm_winnt:notice] [pid 16676:tid 772] AH00430: Parent: Child process 24532 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:02:34.625446 2022] [mpm_winnt:notice] [pid 13432:tid 544] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:02:34.625446 2022] [mpm_winnt:notice] [pid 13432:tid 544] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:02:34.625446 2022] [core:notice] [pid 13432:tid 544] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:02:34.628467 2022] [mpm_winnt:notice] [pid 13432:tid 544] AH00418: Parent: Created child process 22588
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:02:35.065473 2022] [mpm_winnt:notice] [pid 22588:tid 792] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:02:50.711769 2022] [authz_core:error] [pid 22588:tid 1292] [client 127.0.0.1:51442] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 19:03:13.815900 2022] [authz_core:error] [pid 22588:tid 1292] [client 127.0.0.1:51459] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/error404%D0%B3%D0%BB%D0%BB%D0%BB
+[Tue Feb 15 19:05:11.584360 2022] [authz_core:error] [pid 22588:tid 1292] [client 127.0.0.1:51503] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 19:05:18.263854 2022] [authz_core:error] [pid 22588:tid 1292] [client 127.0.0.1:51503] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/error.html
+[Tue Feb 15 19:13:51.638838 2022] [authz_core:error] [pid 22588:tid 1296] [client 127.0.0.1:63537] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 19:14:02.953794 2022] [authz_core:error] [pid 22588:tid 1292] [client 127.0.0.1:63538] AH01630: client denied by server configuration: C:/localhost/test.html, referer: http://strupinski.egor/
+[Tue Feb 15 19:22:51.555386 2022] [mpm_winnt:notice] [pid 13432:tid 544] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:22:53.566214 2022] [mpm_winnt:notice] [pid 22588:tid 792] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:22:53.627039 2022] [mpm_winnt:notice] [pid 13432:tid 544] AH00430: Parent: Child process 22588 exited successfully.
+AH00112: Warning: DocumentRoot [C:/localhost/main.html] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:23:16.790402 2022] [mpm_winnt:notice] [pid 18448:tid 772] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:23:16.790402 2022] [mpm_winnt:notice] [pid 18448:tid 772] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:23:16.790402 2022] [core:notice] [pid 18448:tid 772] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:23:16.798221 2022] [mpm_winnt:notice] [pid 18448:tid 772] AH00418: Parent: Created child process 10340
+AH00112: Warning: DocumentRoot [C:/localhost/main.html] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+t [C:/localhost/main.html] does not exist
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:23:18.844894 2022] [mpm_winnt:notice] [pid 10340:tid 788] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:23:44.433887 2022] [mpm_winnt:notice] [pid 18448:tid 772] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:23:46.452438 2022] [mpm_winnt:notice] [pid 10340:tid 788] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:23:46.505206 2022] [mpm_winnt:notice] [pid 18448:tid 772] AH00430: Parent: Child process 10340 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:24:03.143047 2022] [mpm_winnt:notice] [pid 32264:tid 780] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:24:03.143047 2022] [mpm_winnt:notice] [pid 32264:tid 780] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:24:03.143047 2022] [core:notice] [pid 32264:tid 780] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:24:03.154388 2022] [mpm_winnt:notice] [pid 32264:tid 780] AH00418: Parent: Created child process 27480
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:24:05.185699 2022] [mpm_winnt:notice] [pid 27480:tid 888] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:25:11.981224 2022] [mpm_winnt:notice] [pid 32264:tid 780] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:25:13.999621 2022] [mpm_winnt:notice] [pid 27480:tid 888] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:25:14.043529 2022] [mpm_winnt:notice] [pid 32264:tid 780] AH00430: Parent: Child process 27480 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:25:27.656886 2022] [mpm_winnt:notice] [pid 30760:tid 864] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:25:27.656886 2022] [mpm_winnt:notice] [pid 30760:tid 864] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:25:27.656886 2022] [core:notice] [pid 30760:tid 864] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:25:27.664683 2022] [mpm_winnt:notice] [pid 30760:tid 864] AH00418: Parent: Created child process 33232
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:25:29.852873 2022] [mpm_winnt:notice] [pid 33232:tid 764] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:26:02.240086 2022] [mpm_winnt:notice] [pid 30760:tid 864] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:26:04.252805 2022] [mpm_winnt:notice] [pid 33232:tid 764] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:26:04.292881 2022] [mpm_winnt:notice] [pid 30760:tid 864] AH00430: Parent: Child process 33232 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:26:10.463933 2022] [mpm_winnt:notice] [pid 18420:tid 788] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:26:10.463933 2022] [mpm_winnt:notice] [pid 18420:tid 788] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:26:10.463933 2022] [core:notice] [pid 18420:tid 788] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:26:10.473075 2022] [mpm_winnt:notice] [pid 18420:tid 788] AH00418: Parent: Created child process 30468
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:26:12.503412 2022] [mpm_winnt:notice] [pid 30468:tid 800] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:27:09.384699 2022] [mpm_winnt:notice] [pid 18420:tid 788] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:27:11.401377 2022] [mpm_winnt:notice] [pid 30468:tid 800] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:27:11.452588 2022] [mpm_winnt:notice] [pid 18420:tid 788] AH00430: Parent: Child process 30468 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:27:21.753213 2022] [mpm_winnt:notice] [pid 31816:tid 772] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:27:21.753213 2022] [mpm_winnt:notice] [pid 31816:tid 772] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:27:21.753213 2022] [core:notice] [pid 31816:tid 772] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:27:21.763728 2022] [mpm_winnt:notice] [pid 31816:tid 772] AH00418: Parent: Created child process 17768
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:27:23.969453 2022] [mpm_winnt:notice] [pid 17768:tid 860] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:27:35.111773 2022] [mpm_winnt:notice] [pid 31816:tid 772] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:27:37.126746 2022] [mpm_winnt:notice] [pid 17768:tid 860] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:27:37.162828 2022] [mpm_winnt:notice] [pid 31816:tid 772] AH00430: Parent: Child process 17768 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:28:09.583089 2022] [mpm_winnt:notice] [pid 22216:tid 736] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:28:09.583584 2022] [mpm_winnt:notice] [pid 22216:tid 736] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:28:09.583584 2022] [core:notice] [pid 22216:tid 736] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:28:09.586534 2022] [mpm_winnt:notice] [pid 22216:tid 736] AH00418: Parent: Created child process 33740
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:28:11.631100 2022] [mpm_winnt:notice] [pid 33740:tid 784] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:28:29.082836 2022] [mpm_winnt:notice] [pid 22216:tid 736] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:28:31.093198 2022] [mpm_winnt:notice] [pid 33740:tid 784] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:28:31.142776 2022] [mpm_winnt:notice] [pid 22216:tid 736] AH00430: Parent: Child process 33740 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:28:59.623622 2022] [mpm_winnt:notice] [pid 24868:tid 776] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:28:59.623622 2022] [mpm_winnt:notice] [pid 24868:tid 776] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:28:59.623622 2022] [core:notice] [pid 24868:tid 776] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:28:59.634071 2022] [mpm_winnt:notice] [pid 24868:tid 776] AH00418: Parent: Created child process 27984
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:29:01.804400 2022] [mpm_winnt:notice] [pid 27984:tid 880] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:29:51.505875 2022] [mpm_winnt:notice] [pid 24868:tid 776] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:29:53.522717 2022] [mpm_winnt:notice] [pid 27984:tid 880] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:29:53.553749 2022] [mpm_winnt:notice] [pid 24868:tid 776] AH00430: Parent: Child process 27984 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:30:00.903383 2022] [mpm_winnt:notice] [pid 21300:tid 868] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:30:00.903383 2022] [mpm_winnt:notice] [pid 21300:tid 868] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:30:00.903383 2022] [core:notice] [pid 21300:tid 868] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:30:00.917412 2022] [mpm_winnt:notice] [pid 21300:tid 868] AH00418: Parent: Created child process 27216
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:30:03.092449 2022] [mpm_winnt:notice] [pid 27216:tid 4] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:34:00.476888 2022] [mpm_winnt:notice] [pid 21300:tid 868] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Tue Feb 15 19:34:17.609553 2022] [mpm_winnt:notice] [pid 27216:tid 4] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:34:17.655037 2022] [mpm_winnt:notice] [pid 21300:tid 868] AH00430: Parent: Child process 27216 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:34:25.083855 2022] [mpm_winnt:notice] [pid 18044:tid 480] AH00455: Apache/2.4.52 (Win64) PHP/8.0.15 configured -- resuming normal operations
+[Tue Feb 15 19:34:25.083855 2022] [mpm_winnt:notice] [pid 18044:tid 480] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Tue Feb 15 19:34:25.083855 2022] [core:notice] [pid 18044:tid 480] AH00094: Command line: 'C:\\WT\\Apache24\\bin\\httpd.exe -d C:/WT/Apache24'
+[Tue Feb 15 19:34:25.087917 2022] [mpm_winnt:notice] [pid 18044:tid 480] AH00418: Parent: Created child process 21912
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::f56e:1abd:304:5e43. Set the 'ServerName' directive globally to suppress this message
+[Tue Feb 15 19:34:27.224405 2022] [mpm_winnt:notice] [pid 21912:tid 776] AH00354: Child: Starting 64 worker threads.
+[Tue Feb 15 19:34:31.152365 2022] [authz_core:error] [pid 21912:tid 1296] [client 127.0.0.1:54425] AH01630: client denied by server configuration: C:/Windows/
+[Tue Feb 15 19:35:40.822099 2022] [authz_core:error] [pid 21912:tid 1292] [client ::1:54427] AH01630: client denied by server configuration: C:/Windows/
+[Tue Feb 15 19:35:46.435242 2022] [mpm_winnt:notice] [pid 18044:tid 480] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Feb 15 19:36:01.224647 2022] [authz_core:error] [pid 21912:tid 1296] [client ::1:54428] AH01630: client denied by server configuration: C:/Windows/
+[Tue Feb 15 19:36:01.294546 2022] [mpm_winnt:notice] [pid 21912:tid 776] AH00364: Child: All worker threads have exited.
+[Tue Feb 15 19:36:01.333735 2022] [mpm_winnt:notice] [pid 18044:tid 480] AH00430: Parent: Child process 21912 exited successfully.

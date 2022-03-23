@@ -1,6 +1,6 @@
 #404 Страница не найдена
-ErrorDocument 404 /404.html
-ErrorDocument 403 /403.html
+ErrorDocument 404 ../404/404.html
+ErrorDocument 403 ../403/403.html
 
 <Files "test.html">
  Require all denied
