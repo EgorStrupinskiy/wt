@@ -23,7 +23,7 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -89,10 +89,10 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 960px;
+    height: 750px;
     padding-top: 100px;
 
-    background: dimgrey url('../images/pizza_back.jpg')
+    background: dimgrey url('../images/back.jpg')
      center no-repeat;
     text-align: center;
 }
@@ -115,7 +115,7 @@ p {
 
 .intro__subtitle {
     margin-bottom: 60px;
-    font-size: 40px;
+    font-size: 60px;
     color: orange;
     line-height: 1.5;
     font-weight: 500;
@@ -322,11 +322,14 @@ p {
 /* reviews */
 .pizza {
     overflow: hidden;
-    background-color: orange;
+    background-color: #272727;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .pizza__item {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .pizza__photo {
@@ -340,7 +343,6 @@ p {
     top: 50%;
     right: 0;
     z-index: 1;
-
     transform: translateY(-50%);
 }
 
@@ -366,7 +368,7 @@ p {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #272727;
+    color: orange;
 }
 
 .video {

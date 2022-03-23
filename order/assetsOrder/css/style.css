@@ -23,7 +23,7 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -89,7 +89,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 960px;
+    height: 750px;
     padding-top: 100px;
 
     background: dimgrey url('../images/back.jpg')
@@ -372,7 +372,7 @@ p {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #272727;
+    color: orange;
 }
 
 .video {

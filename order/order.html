@@ -7,8 +7,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pizza Pizza</title>
-        <link rel="shortcut icon" href="./assetsRes/images/logo.svg" type="image/x-icon">
-        <link rel="stylesheet" href="assetsRes/css/style.css">
+        <link rel="shortcut icon" href="./assetsOrder/images/logo.svg" type="image/x-icon">
+        <link rel="stylesheet" href="assetsOrder/css/style.css">
     </head>
 
     <body>
@@ -52,17 +52,17 @@
         <header class="header">
             <div class="container">
                 <div class="header__inner">
-                    <a class="header__logo" href="index.html">
-                        <img src="assetsRes/images/logo.svg" height = 60px width = 60px alt="">
+                    <a class="header__logo" href="../index/index.html">
+                        <img src="assetsOrder/images/logo.svg" height = 60px width = 60px alt="">
                     </a>
                     
 
                     <nav class="nav">
-                        <a class="nav__link" href="index.html">Features</a>
-                        <a class="nav__link" href="restaurants.html">Restaurant</a>
-                        <a class="nav__link" href="index.html">Our Team</a>
-                        <a class="nav__link" href="index.html">Pizza</a>
-                        <a class="nav__link" href="order.html">Order</a>
+                        <a class="nav__link" href="../index/index.html">Features</a>
+                        <a class="nav__link" href="../restaurants/restaurants.html">Restaurant</a>
+                        <a class="nav__link" href="../index/index.html">Our Team</a>
+                        <a class="nav__link" href="../index/index.html">Pizza</a>
+                        <a class="nav__link" href="#">Order</a>
                     </nav>
                 </div>
             </div>
@@ -71,87 +71,33 @@
         <div class="intro">
             <div class="container">
                 <div class="intro__inner">
-                    <h1 class="intro__title">Visit our restaurants</h1>
-                    <h2 class="intro__subtitle">Or order online</h2>
-                    <a class="btn btn--red" href="index.html">go back</a>
+                    <h1 class="intro__title">Make an order</h1>
+                    <h2 class="intro__subtitle">We will deliver pizza to you</h2>
+                    <a class="btn btn--red" href="../index/index.html">go back</a>
                 </div>
             </div>
         </div>
 
-        <!-- testimonials -->
-        <div class="pizza">
-            <div class="container">
-                <div class="pizza__item">
-                    <div class="pizza__photo">
-                        <div class="pizza__image">
-                            <img src="assetsRes/photos/res1.jpg" width="800px" alt="">
-                        </div>
-                    </div>
-                    <div class="pizza__content">
-                        <div class="pizza__text">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor incididunt
-                        </div>
-                        <div class="pizza__price">
-                            Excepteur sint occaecat 
-                            cupidatat non proident
-                        </div>
-                    </div>
-                </div>
-                <div class="pizza__item">
-                    <div class="pizza__photo">
-                        <div class="pizza__image">
-                            <img src="assetsRes/photos/res2.jpg" width="800px" alt="">
-                        </div>
-                    </div>
-                    <div class="pizza__content">
-                        <div class="pizza__text">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor incididunt
-                        </div>
-                        <div class="pizza__price">
-                            Excepteur sint occaecat 
-                            cupidatat non proident
-                        </div>
-                    </div>
-                </div>
-                <div class="pizza__item">
-                    <div class="pizza__photo">
-                        <div class="pizza__image">
-                            <img src="assetsRes/photos/res3.jpg" width="800px" alt="">
-                        </div>
-                    </div>
-                    <div class="pizza__content">
-                        <div class="pizza__text">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor incididunt
-                        </div>
-                        <div class="pizza__price">
-                            Excepteur sint occaecat 
-                            cupidatat non proident
-                        </div>
-                    </div>
-                </div>
-                <div class="pizza__item">
-                    <div class="pizza__photo">
-                        <div class="pizza__image">
-                            <img src="assetsRes/photos/res4.jpg" width="800px" alt="">
-                        </div>
-                    </div>
-                    <div class="pizza__content">
-                        <div class="pizza__text">
-                            Lorem ipsum dolor sit amet, consectetur 
-                            adipiscing elit, sed do eiusmod tempor incididunt
-                        </div>
-                        <div class="pizza__price">
-                            Excepteur sint occaecat 
-                            cupidatat non proident
-                        </div>
-                    </div>
-                </div>
-
+        <!-- Form -->
+        <form class="form" action="" method="post">
+            <div class="form__title">Make an order</div>
+                <input class="input" type="text" placeholder="Your name">
+                <input class="input" type="email" placeholder="your e-mail">
+                <select class = "input" name="day">
+                    <option value="Pepperoni" selected>Pepperoni</option>
+                    <option value="Margherita">Margherita</option>
+                    <option value="Neapolitan">Neapolitan pizza</option>
+                    <option value="Cheese">Cheese Pizza</option>
+                    <option value="Veggie">Veggie Pizza</option>
+                    <option value="BBQ">BBQ Chicken Pizza</option>
+                    <option value="Hawaiian">Hawaiian Pizza</option>
+                </select>
+                <input class="input" type="adress" placeholder="Your adress">
+                <input class="input" type="tel" placeholder="Your phone">
+                <input class="input" type="comments" placeholder="Leave your comments">
             </div>
-        </div>  
+            <button class="form__btn" type="submit">Order</button>
+          </form> 
 
         <!-- Footer -->
         <footer class="footer">

@@ -23,7 +23,7 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -44,9 +44,9 @@ p {
     align-items: center;
 }
 
-.header__logo{
-    width: 5%;
-    height: 5%; 
+.logo{
+    width: 60px;
+    height: 60px; 
 }
 
 .nav{
@@ -84,18 +84,21 @@ p {
     color: white;
     text-decoration: underline;
 }
-
+/* стили */
 .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 960px;
+    width: 100%;
+    height: 800px;
     padding-top: 100px;
 
-    background: dimgrey url('../images/back.jpg')
-     center no-repeat;
+    background: #272727 url('../images/back.jpg')
+    center no-repeat;
     text-align: center;
 }
+
+
 
 .intro__title{
     margin: 0 0 30px;
@@ -115,7 +118,7 @@ p {
 
 .intro__subtitle {
     margin-bottom: 60px;
-    font-size: 60px;
+    font-size: 40px;
     color: orange;
     line-height: 1.5;
     font-weight: 500;
@@ -322,13 +325,11 @@ p {
 /* reviews */
 .pizza {
     overflow: hidden;
-    background-color: #272727;
-    margin-bottom: 50px;
+    background-color: orange;
 }
 
 .pizza__item {
     display: flex;
-    margin-bottom: 40px;
 }
 
 .pizza__photo {
@@ -344,10 +345,6 @@ p {
     z-index: 1;
 
     transform: translateY(-50%);
-}
-
-.pizza__image:first-child {
-    margin-top: 50px;
 }
 
 .pizza__content {
@@ -372,12 +369,13 @@ p {
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: orange;
+    color: #272727;
 }
 
 .video {
-    margin: 50px 50px;
+    margin-top: 50px;
     width: 100%;
+    background-size: cover;
 }
 
 
@@ -487,4 +485,37 @@ p {
 
 .copyright__text span{
     color: white;
+}
+
+@media (max-width: 1080px) {
+    .intro__title {
+       font-size: 25px;
+    }
+
+    .features__item {
+       width: 50%; 
+    }
+
+    .works__item {
+        width: 50%;
+    }
+
+    .team__item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .features__item {
+       width: 100%; 
+    }
+
+    .works__item {
+        width: 100%;
+    }
+
+    .team__item {
+        width: 100%;
+    }
 }

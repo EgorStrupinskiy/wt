@@ -23,7 +23,7 @@ p {
 
 .container {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1200px;
     margin: 0 auto; 
 }
 
@@ -92,7 +92,7 @@ p {
     height: 960px;
     padding-top: 100px;
 
-    background: dimgrey url('../images/back.jpg')
+    background: dimgrey url('../images/pizza_back.jpg')
      center no-repeat;
     text-align: center;
 }
