@@ -16,7 +16,6 @@ function get_team($link) {
 }
 
 $team = get_team($link);
-var_dump($team);
 $links = get_links($link);
 
 $works_template = file_get_contents("../Templates/works.html");
