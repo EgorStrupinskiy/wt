@@ -44,4 +44,3 @@ $main_template = str_replace('{header}', file_get_contents("../Templates/header.
 $main_template = str_replace('{works}', $works_template, $main_template);
 $main_template = str_replace('{footer}', file_get_contents("../Templates/footer.html"), $main_template);
 echo $main_template;
-?>
