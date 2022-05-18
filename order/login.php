@@ -2,7 +2,7 @@
 //Запуск сессий;
 session_start();
 
-if (isset($_POST['login']) && isset($_POST['password'])) {
+if (isset($_POST['login']) || isset($_POST['password'])) {
     // получаем данные из формы с авторизацией
     $login = mysql_real_escape_string($_POST['login']);
     $password = $_POST['password'];

@@ -2,17 +2,37 @@
 //Запуск сессий;
 session_start();
 
+
+require_once '../database/database.php';
+
+function get_user($link, $user_name) {
+    $sql = "SELECT * FROM `user` WHERE name = '${user_name}';";
+    $result = mysqli_query($link, $sql);
+    $data = mysqli_fetch_all($result, 1); 
+    return $data;
+}
+
+
 if (isset($_POST['login']) && isset($_POST['password'])) {
     // получаем данные из формы с авторизацией
-    $login = mysql_real_escape_string($_POST['login']);
+    echo "wefwefwefewf";
+    $login = $_POST['login'];
+    echo "login:".$login;
     $password = $_POST['password'];
-    //проверка пароля и логина
-    if (($login == 'a123') && ($password == '123')) {
-        echo ("логин совпадает и пароль верны");
-        $_SESSION['Name'] = $login;
-        // идем на страницу для авторизованного пользователя
-        header("Location: /author/sekret.php");
+    $user = get_user($link, $login);
+    if ($user == null) {
+        echo "Нет такого юзера";
     } else {
-        die('Такой логин с паролем не найдены в базе данных.');
+        if (($password == $user['password'])) {
+            echo ("логин совпадает и пароль верны");
+            $_SESSION['Name'] = $login;
+            // идем на страницу для авторизованного пользователя
+            //header("Location: ../order/order.php");
+        } else {
+            die('Такой логин с паролем не найдены в базе данных.');
+        }
     }
+    
+} else {
+    echo "хуйня";
 }
