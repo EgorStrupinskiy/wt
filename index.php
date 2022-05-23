@@ -10,4 +10,3 @@ $identity = null;
 if (isset($_SESSION['identity'])) {
     $identity = $_SESSION['identity'];
 }
-?>
