@@ -29,7 +29,7 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
             echo ("логин совпадает и пароль верны");
             $_SESSION['Name'] = $login;
             // идем на страницу для авторизованного пользователя
-            //header("Location: ../order/order.php");
+            header("Location: ../order/order.php");
         } else {
             die('Такой логин с паролем не найдены в базе данных.');
         }

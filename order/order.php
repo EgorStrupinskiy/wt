@@ -2,7 +2,6 @@
     //Запуск сессий;
     session_start();
     //если пользователь не авторизован
-
     echo $_SESSION['Name'];
     if (!(isset($_SESSION['Name'])))
     {
