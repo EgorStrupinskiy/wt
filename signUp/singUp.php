@@ -97,6 +97,6 @@ if (isset($_POST['login']) && isset($_POST['password']) && isset($_POST['email']
 
         //header("Location: ../order/order.php");
     } else {
-        echo "Такой юзер уже есть";
+        echo 'alert("Такой юзер уже есть")';
     }
 }

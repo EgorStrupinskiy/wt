@@ -20,18 +20,17 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
     $password = $_POST['password'];
     $user = get_user($link, $login);
     if ($user == null) {
-        echo "Нет такого юзера";
+        // echo "Нет такого юзера";
     } else {
         //echo $password;
-        echo $user[0]['password'];
+        // echo $user[0]['password'];
         //echo $user['login'];
         if (($password == $user[0]['password'])) {
-            echo ("логин совпадает и пароль верны");
             $_SESSION['Name'] = $login;
             // идем на страницу для авторизованного пользователя
             header("Location: ../order/order.php");
         } else {
-            die('Такой логин с паролем не найдены в базе данных.');
+            echo 'alert("Такой логин с паролем не найдены в базе данных.")';
         }
     }
     
