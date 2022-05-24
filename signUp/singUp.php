@@ -77,11 +77,11 @@ if (isset($_POST['login']) && isset($_POST['password']) && isset($_POST['email']
             // Прикрипление файлов к письму   
 
             // Проверяем отравленность сообщения
-            $mail->addAddress('voitovich200233@gmail.com');
+            $mail->addAddress($email);
             // Отправка сообщения
             $mail->isHTML(true);
             $mail->Subject = $title;
-            $mail->Body = "<i>Mail body in HTML</i>";;
+            $mail->Body = "<i>$login, ваша регистрация прошла успешна</i>";
             try {
                 if ($mail->send()) {
                     echo "заебись";
